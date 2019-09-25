@@ -1,0 +1,60 @@
+window
+{
+    background-color: magenta;
+}
+
+grid
+{
+    background-color: red;
+}
+
+checkbutton
+{
+    background-color:   orange;
+    color:              red;
+    border-width:       25px;
+    min-width:          10px;
+    min-height:         10px;
+    margin:             25px;
+}
+
+checkbutton > check
+{
+    background-color:   blue;
+}
+
+checkbutton > check:checked
+{
+    background-color:   yellow;
+}
+
+
+checkbutton:checked
+{
+    background-color:   magenta;
+    color:              white;
+}
+
+/*
+checkbutton:hover
+{
+    background-color:   black;
+    color:              white;
+}
+*/
+
+/*
+checkbutton:focus
+{
+    background-color:   black;
+    color:              white;
+}
+*/
+
+/*
+checkbutton:active
+{
+    background-color:   black;
+    color:              white;
+}
+*/
